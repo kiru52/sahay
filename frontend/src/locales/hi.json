@@ -1,0 +1,136 @@
+{
+  "app_name": "सहाय (SAHAY)",
+  "app_tagline": "अत्याचार पीड़ितों के लिए एआई-संचालित गतिशील मानसिक स्वास्थ्य निगरानी और संकट भविष्यवाणी प्रणाली",
+  "core_motto": "संकट बनने से पहले मानसिक तनाव को पहचानें।",
+  "core_submotto": "बदलाव को पहचानें। संदर्भ को समझें। समय पर कदम उठाएं।",
+
+  "nav": {
+    "support_worker_view": "सपोर्ट वर्कर पोर्टल",
+    "victim_portal": "लाभार्थी डैशबोर्ड",
+    "district_admin": "जिला प्रशासन एवं एनालिटिक्स",
+    "privacy_consent": "गोपनीयता और सहमति",
+    "about_system": "प्रणाली और परिनियोजन",
+    "sos_emergency": "आपातकालीन सहायता (SOS)",
+    "role": "भूमिका",
+    "language": "भाषा"
+  },
+
+  "roles": {
+    "support_worker": "अधिकृत सपोर्ट वर्कर / अधिकारी",
+    "victim": "पीड़ित / लाभार्थी (V-1042)",
+    "admin": "जिला नोडल अधिकारी (व्यवस्थापक)"
+  },
+
+  "support_worker_dashboard": {
+    "title": "केस ट्राइएज एवं प्रारंभिक चेतावनी केंद्र",
+    "subtitle": "सक्रिय मामलों में पीड़ितों के मानसिक स्वास्थ्य में बदलाव की निरंतर निगरानी।",
+    "stat_active_cases": "कुल सक्रिय मामले",
+    "stat_low_risk": "निम्न जोखिम (स्थिर)",
+    "stat_moderate_risk": "मध्यम जोखिम",
+    "stat_high_risk": "उच्च जोखिम",
+    "stat_critical_risk": "गंभीर जोखिम (तत्काल ध्यान)",
+    "stat_alerts_today": "आज के अलर्ट",
+    "stat_upcoming_events": "आगामी तनावपूर्ण घटनाएं (7 दिन)",
+    "stat_lead_time": "औसत पूर्व-चेतावनी समय",
+    "priority_queue": "प्राथमिकता हस्तक्षेप सूची",
+    "filter_all": "सभी मामले",
+    "filter_critical": "केवल गंभीर",
+    "filter_high": "उच्च जोखिम",
+    "filter_alerts": "सक्रिय अलर्ट",
+    "search_placeholder": "पीड़ित आईडी या केस श्रेणी से खोजें...",
+    "btn_view_profile": "360° प्रोफ़ाइल खोलें",
+    "btn_acknowledge": "स्वीकार करें",
+    "btn_log_intervention": "हस्तक्षेप दर्ज करें",
+    "table_victim": "पीड़ित / आईडी",
+    "table_district": "जिला / केंद्र",
+    "table_category": "केस श्रेणी",
+    "table_distress": "वर्तमान तनाव स्कोर",
+    "table_baseline": "व्यक्तिगत बेसलाइन",
+    "table_trend": "तनाव दिशा",
+    "table_upcoming": "आगामी केस मील का पत्थर",
+    "table_actions": "कार्रवाई"
+  },
+
+  "victim_profile": {
+    "back_to_list": "← प्राथमिकता सूची पर वापस जाएं",
+    "victim_profile_title": "पीड़ित अनुदैर्ध्य प्रोफ़ाइल",
+    "badge_anonymized": "अनाम प्रोफ़ाइल",
+    "badge_decision_support": "निर्णय-समर्थन मीट्रिक",
+    "current_status": "वर्तमान स्वास्थ्य स्थिति",
+    "distress_score": "तनाव स्कोर",
+    "risk_level": "जोखिम श्रेणी",
+    "baseline_deviation": "बेसलाइन विचलन",
+    "trend_velocity": "प्रक्षेपवक्र गति",
+    "personal_baseline_card": "कैलिब्रेटेड व्यक्तिगत बेसलाइन",
+    "baseline_explanation": "पीड़ित की तुलना सामान्य औसत के बजाय उनके अपने व्यक्तिगत संदर्भ बिंदु से की जाती है।",
+    "multimodal_signals": "बहु-मॉडल व्यवहार और ध्वनि संकेतक",
+    "speaking_rate": "बोलने की गति",
+    "pause_frequency": "रुकने की आवृत्ति",
+    "pitch_variation": "आवाज में उतार-चढ़ाव",
+    "speech_to_text_transcript": "हालिया चेक-इन ऑडियो ट्रांसक्रिप्ट",
+    "explainable_ai": "व्याख्यात्मक एआई — जोखिम कारक विश्लेषण",
+    "shap_disclaimer": "SHAP-आधारित स्कोर विश्लेषण। केवल निर्णय-समर्थन मार्गदर्शन हेतु।",
+    "distress_trajectory_chart": "तनाव प्रक्षेपवक्र बनाम व्यक्तिगत बेसलाइन",
+    "case_timeline": "केस यात्रा और न्यायिक तनाव बिंदु",
+    "interventions_history": "मानवीय हस्तक्षेप इतिहास",
+    "log_new_intervention": "मानवीय हस्तक्षेप दर्ज करें"
+  },
+
+  "victim_dashboard": {
+    "welcome_back": "आपके सुरक्षित स्थान में आपका स्वागत है",
+    "calm_subtext": "सहाय आपकी पूरी केस यात्रा के दौरान आपका साथ देने के लिए है। आपकी जानकारी पूरी तरह सुरक्षित है।",
+    "current_wellbeing": "आपकी वर्तमान स्थिति",
+    "ai_insight_title": "एआई स्वास्थ्य सारांश",
+    "ai_insight_disclaimer": "यह एक स्वचालित निर्णय-समर्थन अवलोकन है, कोई चिकित्सीय निदान नहीं।",
+    "btn_start_checkin": "आज का वेल-बीइंग चेक-इन पूरा करें",
+    "my_case_journey": "आपकी केस समयरेखा और आगामी तारीखें",
+    "request_support": "गोपनीय सहायता का अनुरोध करें",
+    "request_support_desc": "यदि आप तनाव महसूस कर रहे हैं, तो अपने सहायता अधिकारी से सीधे बात करने का अनुरोध करें।",
+    "privacy_status_title": "गोपनीयता एवं सहमति सेटिंग्स",
+    "data_sharing": "अनाम डेटा समन्वय",
+    "voice_processing": "ध्वनि तनाव विश्लेषण",
+    "sms_prompts": "एसएमएस चेक-इन संकेत"
+  },
+
+  "voice_checkin": {
+    "modal_title": "दैनिक वेल-बीइंग चेक-इन",
+    "prompt_question": "आज आप कैसा महसूस कर रहे हैं?",
+    "prompt_instruction": "आप अपनी भाषा में खुलकर बोल सकते हैं या लिखकर बता सकते हैं।",
+    "btn_start_recording": "आवाज रिकॉर्डिंग शुरू करें",
+    "btn_stop_recording": "रिकॉर्डिंग बंद करें",
+    "listening": "सुन रहे हैं और विश्लेषण कर रहे हैं...",
+    "speech_detected": "आवाज से पाठ रूपांतरण:",
+    "text_placeholder": "या यहां टाइप करें कि आप कैसा महसूस कर रहे हैं...",
+    "mood_rating_label": "अपना वर्तमान मूड चुनें (1: बहुत कम, 5: शांत/अच्छा):",
+    "btn_submit_checkin": "विश्लेषण करें और सबमिट करें",
+    "analyzing": "एआई बहु-मॉडल विश्लेषण जारी है..."
+  },
+
+  "admin_dashboard": {
+    "title": "जिला एवं राज्य प्रशासनिक कमान केंद्र",
+    "subtitle": "जिला स्तरीय तनाव विश्लेषण, अलर्ट समाधान दर और सिस्टम ऑडिट लॉग।",
+    "tab_district_analytics": "जिला विश्लेषण",
+    "tab_model_validation": "एआई मॉडल सत्यापन (सिम्युलेटेड लक्ष्य)",
+    "tab_audit_logs": "सिस्टम सुरक्षा और ऑडिट ट्रेल",
+    "tab_sustainability": "स्थिरता और परिनियोजन रोडमैप",
+    "stat_registered": "पंजीकृत पीड़ित",
+    "stat_centers": "वन स्टॉप सेंटर",
+    "stat_compliance": "अनुवर्ती अनुपालन दर",
+    "stat_resolution": "अलर्ट समाधान दर"
+  },
+
+  "general": {
+    "low": "निम्न",
+    "moderate": "मध्यम",
+    "high": "उच्च",
+    "critical": "गंभीर",
+    "increasing": "↑ बढ़ रहा है",
+    "stable": "→ स्थिर",
+    "improving": "↓ सुधार हो रहा है",
+    "loading": "डेटा लोड हो रहा है...",
+    "confirm": "पुष्टि करें",
+    "cancel": "रद्द करें",
+    "save": "परिवर्तन सहेजें",
+    "close": "बंद करें"
+  }
+}

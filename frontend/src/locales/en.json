@@ -1,0 +1,136 @@
+{
+  "app_name": "SAHAY",
+  "app_tagline": "AI-Powered Dynamic Mental Health Monitoring and Distress Prediction System for Victims of Atrocities",
+  "core_motto": "Don't wait for distress to become a crisis.",
+  "core_submotto": "Detect change. Understand context. Act early.",
+  
+  "nav": {
+    "support_worker_view": "Support Worker Portal",
+    "victim_portal": "Beneficiary Dashboard",
+    "district_admin": "District Admin & Analytics",
+    "privacy_consent": "Privacy & Consent",
+    "about_system": "About & Deployment",
+    "sos_emergency": "Emergency SOS / Help",
+    "role": "Role",
+    "language": "Language"
+  },
+
+  "roles": {
+    "support_worker": "Authorized Support Worker",
+    "victim": "Victim / Beneficiary (V-1042)",
+    "admin": "District Nodal Officer (Admin)"
+  },
+
+  "support_worker_dashboard": {
+    "title": "Case Triage & Early Warning Command Center",
+    "subtitle": "Monitoring longitudinal well-being trajectories across active atrocity case journeys.",
+    "stat_active_cases": "Total Active Cases",
+    "stat_low_risk": "Low Risk (Stable)",
+    "stat_moderate_risk": "Moderate Risk",
+    "stat_high_risk": "High Risk",
+    "stat_critical_risk": "Critical Escalation",
+    "stat_alerts_today": "Alerts Today",
+    "stat_upcoming_events": "Upcoming Stress Events (7d)",
+    "stat_lead_time": "Avg Early Warning Lead Time",
+    "priority_queue": "Priority Intervention Queue",
+    "filter_all": "All Cases",
+    "filter_critical": "Critical Only",
+    "filter_high": "High Risk",
+    "filter_alerts": "Active Alerts",
+    "search_placeholder": "Search by Victim ID, Anonymized ID, or Atrocity Category...",
+    "btn_view_profile": "Open 360° Profile",
+    "btn_acknowledge": "Acknowledge",
+    "btn_log_intervention": "Log Intervention",
+    "table_victim": "Victim / ID",
+    "table_district": "District / Center",
+    "table_category": "Case Category",
+    "table_distress": "Current Distress",
+    "table_baseline": "Personal Baseline",
+    "table_trend": "Distress Trajectory",
+    "table_upcoming": "Upcoming Case Milestone",
+    "table_actions": "Action"
+  },
+
+  "victim_profile": {
+    "back_to_list": "← Back to Priority Queue",
+    "victim_profile_title": "Victim Longitudinal Profile",
+    "badge_anonymized": "Anonymized Profile",
+    "badge_decision_support": "Decision-Support Metric",
+    "current_status": "Current Well-Being Status",
+    "distress_score": "Distress Score",
+    "risk_level": "Risk Classification",
+    "baseline_deviation": "Baseline Deviation",
+    "trend_velocity": "Trajectory Velocity",
+    "personal_baseline_card": "Calibrated Personal Baseline",
+    "baseline_explanation": "Victim is compared against their personal calibrated norm rather than generic population averages.",
+    "multimodal_signals": "Multimodal Behavioral & Acoustic Indicators",
+    "speaking_rate": "Speaking Rate",
+    "pause_frequency": "Pause Frequency",
+    "pitch_variation": "Vocal Pitch Variation",
+    "speech_to_text_transcript": "Recent Check-in Speech-to-Text Transcript",
+    "explainable_ai": "Explainable AI — Risk Factor Decomposition",
+    "shap_disclaimer": "SHAP-inspired additive contribution to current distress score. Decision-support guidance only.",
+    "distress_trajectory_chart": "Distress Trajectory vs Personal Baseline",
+    "case_timeline": "Case Journey & Judicial Stress Points",
+    "interventions_history": "Human Intervention History",
+    "log_new_intervention": "Record Human Intervention"
+  },
+
+  "victim_dashboard": {
+    "welcome_back": "Welcome to Your Safe Space",
+    "calm_subtext": "SAHAY is here to support you throughout your case journey. Your information is private and secure.",
+    "current_wellbeing": "Your Current Well-Being",
+    "ai_insight_title": "AI Well-Being Summary",
+    "ai_insight_disclaimer": "This is an automated decision-support observation, not a medical or clinical diagnosis.",
+    "btn_start_checkin": "Complete Today's Well-being Check-in",
+    "my_case_journey": "Your Case Timeline & Upcoming Milestones",
+    "request_support": "Request Confidential Human Support",
+    "request_support_desc": "If you are feeling overwhelmed, request your assigned protection officer to connect with you directly.",
+    "privacy_status_title": "Privacy & Consent Settings",
+    "data_sharing": "Anonymized Case Sync",
+    "voice_processing": "Voice Stress Analysis",
+    "sms_prompts": "SMS Periodic Check-in Prompts"
+  },
+
+  "voice_checkin": {
+    "modal_title": "Daily Well-Being Check-in",
+    "prompt_question": "How are you feeling today?",
+    "prompt_instruction": "You can speak freely in your language or type your response. Take your time.",
+    "btn_start_recording": "Start Voice Recording",
+    "btn_stop_recording": "Stop Recording",
+    "listening": "Listening and analyzing acoustic cadence...",
+    "speech_detected": "Speech-to-Text Transcription:",
+    "text_placeholder": "Or type how you are feeling right now...",
+    "mood_rating_label": "Rate your overall mood right now (1: Very Low, 5: Calm/Good):",
+    "btn_submit_checkin": "Analyze & Submit Check-in",
+    "analyzing": "Running AI Multimodal Analysis..."
+  },
+
+  "admin_dashboard": {
+    "title": "District & State Administrative Command Center",
+    "subtitle": "Macro-level district distress analytics, alert resolution metrics, and system audit logs.",
+    "tab_district_analytics": "District Analytics",
+    "tab_model_validation": "AI Model Validation (Simulated Targets)",
+    "tab_audit_logs": "System Security & Audit Trail",
+    "tab_sustainability": "Sustainability & Scalability Roadmap",
+    "stat_registered": "Registered Victims",
+    "stat_centers": "One Stop Centres",
+    "stat_compliance": "Follow-up Compliance Rate",
+    "stat_resolution": "Alert Resolution Rate"
+  },
+
+  "general": {
+    "low": "Low",
+    "moderate": "Moderate",
+    "high": "High",
+    "critical": "Critical",
+    "increasing": "↑ Increasing",
+    "stable": "→ Stable",
+    "improving": "↓ Improving",
+    "loading": "Loading data...",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save Changes",
+    "close": "Close"
+  }
+}
